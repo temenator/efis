@@ -56,7 +56,7 @@ class MainActivity : ComponentActivity() {
                                 .weight(1f),
                             contentAlignment = Alignment.Center
                         ) {
-                            Horizon(
+                             Horizon(
                                 rollDeg = s.rollDeg,
                                 pitchDeg = s.pitchDeg,
                                 modifier = Modifier.size(300.dp)
